@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detect And Predict Crime</title>
+  <style>
+    ul.navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:green;
+      text-align: right;
+      font-size: 25px;
+    }
+
+    ul.navbar li {
+      display: inline-block;
+    }
+
+    ul.navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    ul.navbar li a:hover {
+      background-color: #111;
+      color: white;
+    }
+
+    body {
+      background-image: url('https://images5.alphacoders.com/132/1325377.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-family: 'Impact', sans-serif;
+      color: yellow;
+      font-weight: lighter;
+      margin-top: 50px;
+    }
+
+    p {
+      font-size: 24px;
+      font-family: 'Verdana', sans-serif;
+      color: white;
+      margin-top: 30px;
+    }
+
+
+    .image-container {
+      position: absolute;
+      top: 100px;
+      left: 30px;
+      width: 40%;
+      height: 75vh;
+      background-image: url('https://assets.editorial.aetnd.com/uploads/2014/07/gettyimages-178366909.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .content-container {
+      position: absolute;
+      top: 350;
+      right: 30px;
+      width: 45%;
+      height: 75vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+    }
+  </style>
+</head>
+<body>
+  <ul class="navbar">
+       <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/prediction">Predict</a>
+                    </li>
+  </ul>
+  <div class="image-container"></div>
+  <div class="content-container">
+    <h1 style="color:aqua; font-size: 50px;">Crime Detection</h1>
+    <p style="font-size: 36px;">AI has the potential to significantly enhance crime detection and classification directly from CCTV footage, helping address the increasing crime rates in India.Click on predict to predict crime.</p>
+
+
+  </div>
+</body>
+</html>
